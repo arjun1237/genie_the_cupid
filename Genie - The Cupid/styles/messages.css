@@ -145,4 +145,24 @@
     .nav-bar{
         text-align: center;
     }
+
+    #msg-profile-info, #msg-data, #msg-typer{
+        display: none;
+    }
+
+    .message-board{
+        color: #ffffffb9;
+        margin: 130px 5px;
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 80px 160px 160px 70px;
+        grid-template-areas: 
+        "a"
+        "c"
+        "c"
+        "c";
+    
+        max-width: 980px;    
+    }
 }
