@@ -1,0 +1,80 @@
+.about-top{
+    height: 100px;
+}
+
+article{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+article h1{
+    font-size: 40px;
+    color: #0d3c4e;
+}
+
+article > p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #0e3e52d3;
+}
+
+.about-ofc-img-holder{
+    padding: 0 18px 18px; 
+}
+
+.about-ofc-img-holder figcaption{
+    font-size: 17px;
+    color: #0e3e52d3;
+}
+
+.about-ofc-img-div{
+    margin-bottom: 10px; 
+    padding: 18px; 
+    background-color: #fafbfc; 
+    border: 0.5px solid lightgrey; 
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.about-ofc-desc > div{
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.about-ofc-desc img{ 
+    width: 300px; 
+    height: 200px; 
+}
+
+
+/* --------------------------------------- */
+
+@media only screen and (max-width: 768px){
+    .nav-bar > ul > li{
+        margin-right: 0;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .nav-bar{
+        text-align: center;
+    }
+
+    .about-ofc-desc > div{
+        margin: auto;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .about-top{
+        height: 150px;
+    }
+}
