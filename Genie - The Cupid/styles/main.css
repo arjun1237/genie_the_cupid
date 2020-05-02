@@ -46,7 +46,7 @@ body{
     color: #93d5ec;
 }
 
-.nav-bar > ul > li:hover{
+.nav-bar > ul > li > a:hover{
     cursor: pointer;
     color: white;
 }
