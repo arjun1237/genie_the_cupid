@@ -1,168 +1,164 @@
-.login-page-block{
-    width: 100%;
-    border-collapse:collapse;
-    height: 100%;
+.login-page-block {
+	width: 100%;
+	border-collapse: collapse;
+	height: 100%;
 }
 
-.login-page-block td{
-    width: 50%;
+.login-page-block td {
+	width: 50%;
 }
 
-.cupid-intro, .cupid-login{
-    padding: 20px;
-    height: 50px;
+.cupid-intro,
+.cupid-login {
+	padding: 20px;
+	height: 50px;
 }
 
-.cupid-intro{
-    background: #add2e0;
+.cupid-intro {
+	background: #add2e0;
 }
 
-.login-bg-heart{
-    width: 200px;
-    text-align: center;
-    letter-spacing: -30px;
-    border-bottom: 6px dotted #127ca33b;
-    padding: 0 30px 30px 0;
+.login-bg-heart {
+	width: 200px;
+	text-align: center;
+	letter-spacing: -30px;
+	border-bottom: 6px dotted #127ca33b;
+	padding: 0 30px 30px 0;
 }
 
-.login-bg-heart > i:nth-last-of-type(2){
-    font-size: 130px;
-    color: #127ca3d0;
+.login-bg-heart > i:nth-last-of-type(2) {
+	font-size: 130px;
+	color: #127ca3d0;
 }
 
-.login-bg-heart > i:not(:nth-last-of-type(2)){
-    font-size: 50px;
-    color: #127ca31e;
+.login-bg-heart > i:not(:nth-last-of-type(2)) {
+	font-size: 50px;
+	color: #127ca31e;
 }
 
-.login-bg-desc{
-    color: #127ca3;
-    margin: 0 auto;
+.login-bg-desc {
+	color: #127ca3;
+	margin: 0 auto;
 }
 
-.cupid-intro > div{
-    margin: 0 auto;
-    text-align: center;
+.cupid-intro > div {
+	margin: 0 auto;
+	text-align: center;
 }
 
-.login-bg-desc p + p{
-    text-align: center;
-    margin: 30px 30px;
-    font-size: 13px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    line-height: 18px;
+.login-bg-desc p + p {
+	text-align: center;
+	margin: 30px 30px;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 18px;
 }
 
-.login-bg-desc p + p > span{
-    color: #0e8ab8;
+.login-bg-desc p + p > span {
+	color: #0e8ab8;
 }
 
-.login-bg-desc p + p > span:hover{
-    cursor: pointer;
-    color: #09485f;
+.login-bg-desc p + p > span:hover {
+	cursor: pointer;
+	color: #09485f;
 }
-
-
 
 /* ---------------------------- */
 /* cupid login part */
 /* --------------------------- */
 
-
-
-.cupid-login{
-    background-color: #ffa9a994;
-    margin: 0 auto;
-    text-align: center;
-    color: #f54b67;
-    vertical-align: top;
+.cupid-login {
+	background-color: #ffa9a994;
+	margin: 0 auto;
+	text-align: center;
+	color: #f54b67;
+	vertical-align: top;
 }
 
-.cupid-login h3{
-    margin: 0 0 50px;
-    font-size: 70px;
-    font-family: 'Lovers Quarrel', cursive;
+.cupid-login h3 {
+	margin: 0 0 50px;
+	font-size: 70px;
+	font-family: 'Lovers Quarrel', cursive;
 }
 
-.login-top{
-    height: 60px;
+.login-top {
+	height: 60px;
 }
 
-.cupid-login > h3 + p{
-    margin-bottom: 50px;
-    margin-top: 70px;
+.cupid-login > h3 + p {
+	margin-bottom: 50px;
+	margin-top: 70px;
 }
 
 .cupid-login input[type="text"],
-.cupid-login input[type="password"]{
-    border: none;
-    margin-top: 2px;
-    opacity: 50%;
-    padding: 12px 20px;
-    border-radius: 15px;
-    width: 250px;
+.cupid-login input[type="password"] {
+	border: none;
+	margin-top: 2px;
+	opacity: 70%;
+	padding: 12px 20px;
+	border-radius: 15px;
+	width: 250px;
+	color: #fd002a;
+	letter-spacing: 1px;
 }
 
-.cupid-login input[type="text"]{
-    margin-bottom: 20px;
+.cupid-login input[type="text"] {
+	margin-bottom: 20px;
 }
 
-.login-inputs{    
-    width: fit-content;
-    margin: 0 auto;
-    text-align: left;
+.login-inputs {
+	width: fit-content;
+	margin: 0 auto;
+	text-align: left;
 }
 
-.cupid-login label{
-    color: #f54b679c;
-    padding-left: 15px;
+.cupid-login label {
+	color: #f54b679c;
+	padding-left: 15px;
 }
 
-input:focus{
-    outline: none;
+input:focus {
+	outline: none;
 }
 
-.login-inputs p{
-    margin: 10px 0;
-    text-align: right;
-    font-size: 10px;
+.login-inputs p {
+	margin: 10px 0;
+	text-align: right;
+	font-size: 10px;
 }
 
-.login-inputs p:hover{
-    font-weight: bold;
-    cursor: pointer;
+.login-inputs p:hover {
+	font-weight: bold;
+	cursor: pointer;
 }
 
-.cupid-login input[type="button"]{
-    background-color: #ff024e;
-    color: #ffffffda;
-    padding: 10px 20px;
-    width: 100%;
-    margin: 10px auto;
-    border: 1px solid #f54b67;
-    border-radius: 30px;
-    /* font-weight: bold; */
-    font-family: 'Work Sans', sans-serif;
-    letter-spacing: 1px;
-    font-size: 16px;
+.cupid-login input[type="submit"] {
+	background-color: #ff024e;
+	color: #ffffffda;
+	padding: 10px 20px;
+	width: 100%;
+	margin: 10px auto;
+	border: 1px solid #f54b67;
+	border-radius: 30px;
+	/* font-weight: bold; */
+	font-family: 'Work Sans', sans-serif;
+	letter-spacing: 1px;
+	font-size: 16px;
 }
 
-.cupid-login input[type="button"]:hover{
-    color: #ffffff;
-    cursor: pointer;
-    border: 1px solid #962043;
+.cupid-login input[type="submit"]:hover {
+	color: #ffffff;
+	cursor: pointer;
+	border: 1px solid #962043;
 }
-
 
 /* ------------------------------- */
 /* media queries */
 /* ---------------------------------- */
 
-
-
-@media only screen and (max-width: 768px){
-    /* .login-page-block > td{
+@media only screen and (max-width: 768px) {
+	/* .login-page-block > td{
         vertical-align: top;
         display: table-row;
     }
@@ -174,7 +170,7 @@ input:focus{
     .login-bg-desc > p + p{
         display: none;
     } */
-    .login-page-block td:first-child{
-        display: none;
-    }
+	.login-page-block td:first-child {
+		display: none;
+	}
 }
