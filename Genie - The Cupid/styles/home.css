@@ -1,0 +1,121 @@
+
+
+/* ------------------------------ */
+
+.sidebar{
+    width: 300px;
+    height: 100%;
+    background-color: #0b4861;
+    position: fixed;
+    text-align: center;
+    color: #86bdca;
+}
+
+.profile-pic{
+    border-radius: 100px;
+    width: fit-content;
+    overflow: hidden;
+    margin: 40px auto 10px;
+}
+
+.profile-pic img{
+    width: 180px;
+    height: 180px;
+}
+
+.profile-info span{
+    color: #ffffff;
+}
+
+.profile-info{
+    width: fit-content;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+
+/* ------------------------------------------ */
+
+.home-info{
+    margin: 170px 400px;
+    width: 60%;
+}
+
+.home-info h1{
+    color: #0b4861;
+}
+
+.top-match-result{
+    width: 100%;
+}
+
+.top-match-profile{
+    width: 230px;
+    height: 320px;
+    background-color: #dde9e9;
+    border-radius: 5px;
+    color: #0f424e;
+    border-bottom: 4px solid #0f424e;
+    border-top: 4px solid #0f424e;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.top-match-profile > div:nth-of-type(2){
+    background-color: thistle;
+    margin: 0 auto;
+    border-radius: 150px;
+    overflow: hidden;
+}
+
+.top-match-prof-top{
+    height: 20px;
+}
+
+.top-match-profile img, .top-match-profile > div:nth-of-type(2){
+    height: 150px;
+    width: 150px;
+}
+
+.top-match-profile-info > p{
+    margin: 0 0 5px;
+}
+
+.top-match-row{
+    /* background-color: wheat; */
+    width: 100%;
+}
+
+
+/* ------------------- */
+
+
+@media only screen and (max-width: 768px){
+    .nav-bar > ul > li{
+        margin-right: 0;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .nav-bar{
+        text-align: center;
+    }
+
+    .sidebar{
+        display: none;
+    }
+
+    .home-info{
+        margin: 170px auto;
+        max-width: 70%;
+        text-align: center;
+    }
+
+    .top-match-row{
+        width: min-content;
+        margin: 0 auto;
+        /* background-color: wheat; */
+    }
+    
+}

@@ -1,0 +1,26 @@
+.message-board-top{
+    height: 70px;
+    background-color: teal;
+}
+
+.message-board{
+    display: grid;
+}
+
+.message-board-
+
+/* ------------------------------------------------------------ */
+
+
+
+@media only screen and (max-width: 768px){
+    .nav-bar > ul > li{
+        margin-right: 0;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .nav-bar{
+        text-align: center;
+    }
+}

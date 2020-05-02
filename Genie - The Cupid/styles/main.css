@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
+.flt-lft{
+    float: left;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.nav-bar{
+    overflow: hidden;
+    background-color: #085d7c;
+    position: fixed;
+    top: 0;
+    width: 100%;    
+    color: #93d5ec;
+    position: fixed;
+}
+
+.nav-bar > ul > li{
+    margin-right: 40px;
+    display: inline;
+    list-style-type: none;
+}
+
+.nav-bar > ul > li:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.nav-bar > ul > li:first-child{
+    font-family:  'Lovers Quarrel', cursive;
+    font-size: 32px;
+}
+
+/* ---------------------------------------------------------------------- */
+
