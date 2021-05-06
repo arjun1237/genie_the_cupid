@@ -1,1 +1,3 @@
-MASAI SPRINT - 1 (HTML and CSS Project)
+# Genie - The Cupid
+
+A very simple dating app, done with only HTML and CSS. This project was basically to apply all the CSS and HTML tools iI had learned in previous 2 weeks.
